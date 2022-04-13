@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-scraper"
+version = "0.1.0"
+description = ""
+authors = ["ahmadjaara <ahmadjaara98@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
